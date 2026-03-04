@@ -13,49 +13,50 @@
 
 ## Problem Context
 
-Large-scale e-commerce platforms face significant inventory inefficiencies due to fragmented decision making across buying, replenishment, store allocation and pricing.
+E-commerce platforms & Retailers face significant inventory inefficiencies due to fragmented decision making across buying, replenishment, store allocation and pricing.
 
-Most inventory decisions are handled independently by different teams using manual spreadsheets and heuristics.
+Most inventory decisions are handled independently by different teams using manual spreadsheets, gsheets & biased mental models.
 
 This results in several systemic challenges:
 
-• Excess inventory accumulation  
+• Excess inventory accumulation
 • Frequent stockouts on high-demand SKUs  
 • Poor inventory placement across fulfilment centres  
 • Slow response to ageing inventory  
 
-These inefficiencies increase working capital requirements and reduce sell-through performance.
+These inefficiencies increase working capital requirements, reduce sell-through, directly impacting both topline and bottomline inefficiencies.
 
 
 ## Business Impact
 
 Inventory inefficiencies directly impact several core business metrics:
 
-- Working capital locked in excess inventory
+- Working capital due to high inventory
 - Lost revenue due to stockouts on top-selling products
 - High logistics costs due to suboptimal inventory placement
-- Margin erosion due to late markdown decisions
+- Margin erosion due to excess ageing inventory buildup
 
-Improving inventory decision quality can unlock significant value through better sell-through, faster inventory turns and reduced operational costs.
+Improving inventory decision quality can unlock significant value through better sell-through, increased sales at lower markdowns and reduced operational costs.
 
 
 ## User Personas
 
 The platform serves multiple operational teams:
 
-Category Planners
+Category Planning Managers
 Responsible for buying decisions and assortment planning.
 
-Supply Chain Managers
+Category Operations Managers
 Manage replenishment and inventory flow across warehouses.
 
-Retail Operations Teams
+Category Managers
 Allocate inventory across offline stores.
 
-Pricing Teams
+Pricing Managers
 Monitor ageing inventory and trigger markdown actions.
 
-
+Business Finance Managers
+Optimise P&L topline & bottomline
 
 ## Product Vision
 
