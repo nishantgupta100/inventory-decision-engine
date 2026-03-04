@@ -65,8 +65,9 @@ Build a unified inventory intelligence platform that automates critical inventor
 The platform should enable:
 
 • Data-driven buying decisions  
-• Automated replenishment triggers  
-• Optimised store allocations  
+• Automated replenishment  
+• Optimised store allocations
+• Inter warehouse transfers
 • Efficient inventory placement across warehouses  
 • Early detection of ageing inventory  
 
@@ -110,14 +111,17 @@ The architecture enables scalable automation of inventory decisions across multi
 Smart Buying Engine  
 Evaluates SKU-level performance signals during intake to prevent non-performing inventory purchases.
 
+Inventory Placement Engine  
+Optimises warehouse inventory distribution to reduce logistics costs and delivery time.
+
 Automatic Replenishment Engine  
 Continuously monitors demand signals and triggers replenishment decisions.
 
-Store Allocation Engine  
+Auto Allocation Engine  
 Optimises distribution of inventory across offline stores based on demand patterns.
 
-Inventory Placement Engine  
-Optimises warehouse inventory distribution to reduce logistics costs and delivery time.
+Inter Warehouse Transfers
+Automatic re-balancing of inventory across warehouses
 
 Ageing Detection Engine  
 Identifies slow-moving SKUs early and recommends pricing or liquidation actions.
@@ -147,17 +151,15 @@ These inputs feed into decision engines that generate automated inventory action
 
 ## Product Metrics
 
-Inventory Turns
+Stock Cover
 
 Sell-through Rate
 
-Stockout Frequency
+On-shelf Availability
 
 Inventory Ageing %
 
-Working Capital Days
-
-Operational Efficiency (manual effort reduction)
+Operational Efficiency (man-days reduction)
 
 
 ## Outcomes & Impact
