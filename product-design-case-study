@@ -1,1 +1,179 @@
+1. Problem Context
+2. Business Impact
+3. User Personas
+4. Product Vision
+5. Product Strategy
+6. System Architecture
+7. Core Product Modules
+8. Decision Logic
+9. Product Metrics
+10. Outcomes & Impact
+11. Product Lessons
 
+
+## Problem Context
+
+Large-scale e-commerce platforms face significant inventory inefficiencies due to fragmented decision making across buying, replenishment, store allocation and pricing.
+
+Most inventory decisions are handled independently by different teams using manual spreadsheets and heuristics.
+
+This results in several systemic challenges:
+
+• Excess inventory accumulation  
+• Frequent stockouts on high-demand SKUs  
+• Poor inventory placement across fulfilment centres  
+• Slow response to ageing inventory  
+
+These inefficiencies increase working capital requirements and reduce sell-through performance.
+
+
+## Business Impact
+
+Inventory inefficiencies directly impact several core business metrics:
+
+- Working capital locked in excess inventory
+- Lost revenue due to stockouts on top-selling products
+- High logistics costs due to suboptimal inventory placement
+- Margin erosion due to late markdown decisions
+
+Improving inventory decision quality can unlock significant value through better sell-through, faster inventory turns and reduced operational costs.
+
+
+## User Personas
+
+The platform serves multiple operational teams:
+
+Category Planners
+Responsible for buying decisions and assortment planning.
+
+Supply Chain Managers
+Manage replenishment and inventory flow across warehouses.
+
+Retail Operations Teams
+Allocate inventory across offline stores.
+
+Pricing Teams
+Monitor ageing inventory and trigger markdown actions.
+
+
+
+## Product Vision
+
+Build a unified inventory intelligence platform that automates critical inventory decisions across the entire product lifecycle.
+
+The platform should enable:
+
+• Data-driven buying decisions  
+• Automated replenishment triggers  
+• Optimised store allocations  
+• Efficient inventory placement across warehouses  
+• Early detection of ageing inventory  
+
+The goal is to move inventory management from manual planning to automated decision systems.
+
+
+## Product Strategy
+
+The system was designed around modular decision engines that solve specific inventory problems while sharing a common data foundation.
+
+Key strategic principles included:
+
+Decision Automation  
+Replace manual spreadsheet-based decisions with algorithmic decision engines.
+
+Unified Data Layer  
+Integrate demand signals, inventory data and supply constraints into a single decision platform.
+
+Closed Feedback Loops  
+Continuously monitor decision outcomes and refine models using real-world performance.
+
+Scalable System Design  
+Ensure the platform can operate across thousands of SKUs and hundreds of retail stores.
+
+
+## System Architecture
+
+The Inventory Decision Engine operates across five key layers:
+
+1. Data Sources
+2. Data Processing
+3. Decision Engines
+4. Execution Systems
+5. Monitoring & Learning
+
+The architecture enables scalable automation of inventory decisions across multiple business functions.
+
+
+## Core Product Modules
+
+Smart Buying Engine  
+Evaluates SKU-level performance signals during intake to prevent non-performing inventory purchases.
+
+Automatic Replenishment Engine  
+Continuously monitors demand signals and triggers replenishment decisions.
+
+Store Allocation Engine  
+Optimises distribution of inventory across offline stores based on demand patterns.
+
+Inventory Placement Engine  
+Optimises warehouse inventory distribution to reduce logistics costs and delivery time.
+
+Ageing Detection Engine  
+Identifies slow-moving SKUs early and recommends pricing or liquidation actions.
+
+Pricing Optimisation Engine  
+Suggests markdown triggers based on ageing and demand patterns.
+
+
+## Decision Logic
+
+The system combines multiple inputs to generate recommendations:
+
+Demand Forecast Signals  
+SKU-level demand projections.
+
+Inventory Health Metrics  
+Sell-through rate, ageing, stock cover.
+
+Supply Constraints  
+Vendor lead times, MOQs and fill rates.
+
+Operational Constraints  
+Warehouse capacity, logistics costs and store demand.
+
+These inputs feed into decision engines that generate automated inventory actions.
+
+
+## Product Metrics
+
+Inventory Turns
+
+Sell-through Rate
+
+Stockout Frequency
+
+Inventory Ageing %
+
+Working Capital Days
+
+Operational Efficiency (manual effort reduction)
+
+
+## Outcomes & Impact
+
+Systems inspired by these modules delivered measurable improvements:
+
+• 5% improvement in sell-through rate  
+• 7% increase in availability of top-selling SKUs  
+• 5-day reduction in inventory holding cover  
+• 8% reduction in ageing inventory  
+• 593 man-hours saved annually through automation
+
+
+## Product Lessons
+
+Inventory optimisation requires tightly coupled decision systems rather than isolated tools.
+
+Data quality and demand forecasting accuracy are critical foundations for automated decision making.
+
+Human override mechanisms remain essential in complex retail environments where qualitative insights complement algorithmic recommendations.
