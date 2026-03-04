@@ -1,1 +1,55 @@
+# Inventory Decision Engine Architecture
 
+The Inventory Decision Engine is designed to automate inventory-related decisions across buying, replenishment, allocation and pricing.
+
+The system architecture is organised into five layers:
+
+1. Data Sources
+2. Data Processing
+3. Decision Engines
+4. Execution Systems
+5. Monitoring & Learning
+
+
+                 +----------------------+
+                 |      Data Sources     |
+                 | Sales, Inventory,     |
+                 | Vendor, Product Data  |
+                 +----------+-----------+
+                            |
+                            v
+                 +----------------------+
+                 |  Data Processing     |
+                 | Feature Engineering  |
+                 | SKU Segmentation     |
+                 | Forecast Integration |
+                 +----------+-----------+
+                            |
+                            v
+               +----------------------------+
+               |     Decision Engines        |
+               | Smart Buying                |
+               | Replenishment Engine        |
+               | Store Allocation Engine     |
+               | Inventory Placement Engine  |
+               | Ageing Detection Engine     |
+               | Pricing Optimisation        |
+               +-------------+---------------+
+                             |
+                             v
+                 +---------------------------+
+                 |   Execution Systems       |
+                 | ERP (Purchase Order)      |
+                 | PO SPLIT                  |
+                 | ARS (Replenishment)       |
+                 | WMS (Warehouse Inv)       |
+                 | Allocation & Consolidation|
+                 +-----------+----------------+
+                             |
+                             v
+                 +-----------------------+
+                 | Monitoring & Learning |
+                 | Inventory Dashboard   |
+                 | Planner Overrides     |
+                 | Feedback Loops        |
+                 +-----------------------+
