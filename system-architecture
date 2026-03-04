@@ -37,13 +37,13 @@ The system architecture is organised into five layers:
                +-------------+---------------+
                              |
                              v
-                 +---------------------------+
-                 |   Execution Systems       |
-                 | ERP (Purchase Order)      |
-                 | PO SPLIT                  |
-                 | ARS (Replenishment)       |
-                 | WMS (Warehouse Inv)       |
-                 | Allocation & Consolidation|
+                 +----------------------------+
+                 |   Execution Systems        |
+                 | ERP (Purchase Order)       |
+                 | PO SPLIT                   |
+                 | ARS (Replenishment)        |
+                 | WMS (Warehouse Inv)        |
+                 | Allocation & Consolidation |
                  +-----------+----------------+
                              |
                              v
