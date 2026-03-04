@@ -1,0 +1,81 @@
+# Inventory Decision Flow
+
+The Inventory Decision Engine converts operational signals into automated inventory decisions.
+
+## Buying Decision Flow
+
+SKU Attributes + Historical Performance
+↓
+Smart Buying Engine
+↓
+Buy Quantity Recommendation
+
+## Replenishment Decision Flow
+
+Demand Forecast + Current Inventory + Vendor Lead Time
+↓
+Replenishment Engine
+↓
+Replenishment Trigger
+
+## Store Allocation Flow
+
+Store Demand Patterns + Available Inventory
+↓
+Store Allocation Engine
+↓
+Store Distribution Plan
+
+## Ageing & Pricing Flow
+
+Inventory Age + Sell-through Rate + Demand Velocity
+↓
+Ageing Detection Engine
+↓
+Pricing Optimisation Engine
+↓
+Markdown Recommendation
+
+
+
+
+           Demand Forecast
+                +
+           Inventory Levels
+                +
+           Vendor Lead Time
+                    │
+                    ▼
+        +------------------------+
+        |  Replenishment Engine  |
+        +------------------------+
+                    │
+                    ▼
+        Replenishment Recommendation
+
+
+      SKU Signals + Performance Data
+                    │
+                    ▼
+         +----------------------+
+         |  Smart Buying Engine |
+         +----------------------+
+                    │
+                    ▼
+         Buy Quantity Recommendation
+
+
+      Inventory Age + Sell-through Rate
+                    │
+                    ▼
+        +------------------------+
+        | Ageing Detection Engine|
+        +------------------------+
+                    │
+                    ▼
+        +------------------------+
+        | Pricing Optimisation   |
+        +------------------------+
+                    │
+                    ▼
+             Markdown Trigger
