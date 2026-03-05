@@ -397,3 +397,204 @@ E-commerce Storefront
 Marketing Platforms
 
 It ensures all downstream systems receive clean, structured product data.
+
+# 8. Multi-Channel Distribution Strategy
+
+The PIM platform must support product distribution across multiple sales channels including:
+
+Brand Website (D2C store)
+
+Marketplaces (Amazon, Flipkart, Myntra, Nykaa)
+
+Offline Retail Stores
+
+B2B Wholesale
+
+Each channel may require different product attributes, pricing rules and content formats.
+
+The system should allow centralized product data management while enabling channel-specific customization.
+
+# 8.1 Channel Catalog Management
+
+The platform must allow selective product publishing across channels.
+
+Example scenarios:
+
+SKU A → Website + Amazon + Retail
+SKU B → Website Only (Exclusive)
+SKU C → Marketplace Only (Old Inventory)
+
+Capabilities required:
+
+• enable/disable products per channel
+• define channel-specific catalog collections
+• manage marketplace compliance attributes
+
+This ensures consistent yet flexible product distribution.
+
+# 8.2 Channel-Specific Product Overrides
+
+Different sales channels often require variations in product data.
+
+Examples include:
+
+Attribute	Website	Marketplace	Retail
+Product Title	Marketing-focused	Keyword optimized	Short
+Description	Rich content	SEO optimized	Minimal
+Pricing	Full margin	Competitive	Fixed MRP
+Images	Lifestyle images	White background	POS image
+
+The PIM must allow channel-specific overrides while maintaining a master product record.
+
+# 8.3 Marketplace Attribute Compliance
+
+Marketplaces often require mandatory attributes not used by internal systems.
+
+Examples:
+
+Amazon → Bullet Points, Search Terms
+Flipkart → Style Code, Fabric Type
+Myntra → Occasion, Fit, Pattern
+
+The PIM must support:
+
+• channel-specific attribute templates
+• validation rules before product publishing
+• error reporting for missing attributes
+
+This ensures smooth marketplace listing operations.
+
+# 9. Product Lifecycle Management
+
+D2C businesses require structured product lifecycle governance.
+
+The PIM platform must support the following product states:
+
+Concept
+↓
+Product Development
+↓
+Catalog Creation
+↓
+Channel Publishing
+↓
+Active Selling
+↓
+Clearance
+↓
+Discontinued
+
+Each lifecycle stage determines:
+
+visibility across channels
+
+pricing rules
+
+merchandising actions
+
+Example:
+
+Clearance products → Marketplace promotions
+New launches → Website + Influencer campaigns
+Discontinued items → Offline liquidation
+
+# 10. Merchandising & Collection Planning
+
+For D2C brands, merchandising strategy often revolves around collections and seasonal drops.
+
+The PIM should support:
+
+Collection Management
+
+Examples:
+
+Summer 2025
+Festive Collection
+Athleisure Line
+Wedding Season
+
+Capabilities required:
+
+• assign SKUs to collections
+• define collection launch dates
+• schedule product visibility
+
+Drop-Based Launches
+
+Many D2C brands operate limited edition drops.
+
+Example:
+
+Drop 1 → 20 new SKUs
+Drop 2 → 15 SKUs
+
+The PIM must allow:
+
+• scheduled product activation
+• automated channel publishing
+• launch dashboards
+
+# 11. Retail Store Enablement
+
+For brands with offline stores, the PIM must support store operations.
+
+Capabilities include:
+
+Store Catalog Sync
+
+Offline POS systems require:
+
+• SKU codes
+• barcodes
+• product attributes
+• pricing
+
+The PIM should publish product data to POS systems.
+
+Visual Merchandising Support
+
+The system should enable store teams to access:
+
+• product images
+• style lookbooks
+• cross-sell recommendations
+
+Example:
+
+Shirt → Suggested Trouser + Belt
+Kurta → Suggested Dupatta
+
+# 12. Vendor & Supplier Collaboration
+
+D2C brands often work with multiple manufacturers.
+
+The PIM should support vendor collaboration.
+
+Capabilities include:
+
+• vendor-specific product onboarding
+• attribute templates for vendors
+• quality checks before catalog approval
+
+Example workflow:
+
+Vendor uploads product → QA review → Approved → Published
+
+# 13. Success Metrics for a D2C Brand
+
+The success of the PIM platform should be measured through:
+
+Catalog Efficiency
+• time to onboard new products
+
+Data Quality
+• product data completeness score
+
+Channel Speed
+• time taken to publish products to marketplaces
+
+Merchandising Effectiveness
+• performance of collections and drops
+
+Operational Efficiency
+• reduction in manual catalog operations
